@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-primary{
+    margin-right: 110px;
+    height: 54px;
+    border-radius: 5px;
+    background-color:orangered;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    border: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 10px;
+    
+    
+  
+}
+
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+   
+}
+
+/* nav section start */
+.navbar{
+    background-color: #151414;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+.logo-text{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 100px;
+    font-family: cursive;
+
+}
+
+nav li{
+    list-style: none;
+    margin: left;
+    margin-left: 50px;  
+    transition: 0.5s;
+}
+nav li:hover{
+    transform: scale(1.3);
+    
+   
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* nav section end */
+
+/* Header Start */
+.header{
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.header-title{
+    width: 525px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+    margin-right: 110px;
+
+}
+
+.header-sub-title{
+    width: 525px;
+    margin-right: 110px;
+    text-align: right;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: cursive;
+    margin-bottom: 10px;
+
+
+}
+
+
+.fa-solid{
+    color: rgb(5, 214, 155)
+    
+}
+.fa-check{
+    font-size: medium;
+}
+
+/* header section end */
+
+/* failures section start */
+.failures{
+    display: flex;
+    margin-top: 130px;
+    align-items: center;
+    gap: 200px;
+
+}
+
+
+
+.failures-title{
+    font-weight: 700;
+    font-size: 55px;
+    color: #151414;
+    margin-bottom: 25px;
+    font-family:'Work Sans'; ;
+    
+    
+}
+
+.failures-img{
+    width: 600px;
+    height: 75vh;
+
+    
+}
+
+.failures-sub-title{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 15px;
+}
+
+.failures-list{
+    margin-bottom: 10px;
+    color: #444343;
+    font-size: 13px;
+}
+
+
+/* failures section end*/
+
+/* My plans section start */
+.my-plan{
+    margin-top: 130px;
+    
+ 
+ 
+ }
+ 
+ .my-plan-title{
+     margin-bottom: 50px;
+     text-align: center;
+     font-weight: 700;
+     font-size: 40px;
+     color: #151414;
+ }
+ 
+ .skils-container{
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+ }
+ 
+ .skills-img{
+     margin-bottom: 10px;
+ }
+ 
+ .skills-title{
+     font-weight: 700;
+     font-size: 30px;
+     color: #151414;
+ }
+ 
+ .skills-dis{
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 10px;
+ }
+
+ /* My plan section end */
+/* watch section start */
+
+ .call-now{
+    margin-top: 130px;
+    height: 30vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+
+    
+    
+ }
+
+ .call-btn{
+    margin-right: 110px;
+    height: 54px;
+    border-radius: 5px;
+    background: #FFFFFF;;
+    color: #F15B22;
+    font-weight: 500;
+    font-size: 20px;
+    border: 0;
+    padding: 15px;
+    margin-top: 10px;
+ }
+.call-text{
+    
+    margin-left: 35px;
+}
+
+.call-title{
+    font-weight: 600;
+    font-size: 30px;
+    width: 400px;
+}
+
+/* watch section end  */
+
+/* footer section start */
+.footer{
+    background-color: #151414;
+    height: 40vh;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    font-family: 'Work Sans';
+    
+}
+
+.footer-text{
+    width: 525px;
+    margin-left: -1px;
+    text-align: left;
+
+}
+
+.footer-lite{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    
+    
+}
+
+.footer-title{
+    font-weight: 700;
+    font-size: 45px; 
+    color: #F8F8F8;
+    margin-bottom: 10px;
+    margin-left: 5.5px;
+   
+
+    
+}
+
+.footer-sub-title{
+    font-weight: 400;
+   font-size: 16px;
+   color: #FFFFFF;
+   margin: 10px;
+   
+ 
+}
+
+
+.mail-footer{
+  margin-left: 200px;
+}
+
+.mail-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    
+}
+
+.mail-footer input[type=email]{
+    padding: 20px;
+    padding-right: 60px;
+    border-color: 3px solid white;
+    border-radius: 2px;
+    background: #151414;
+    margin-top: 5px;
+    border-color: 5px solid white;
+    color: #F8F8F8;
+    
+}
+.mail-footer input[type=button]{
+    font-family: 'Inter';
+    padding: 20px;
+    background-color: white;
+    color: #F15B22;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 2px;
+    border: none;
+  
+}
+
+
+
+/* footer section send */
